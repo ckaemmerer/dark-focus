@@ -1,0 +1,22 @@
+{
+  "name": "dark-focus",
+  "displayName": "Dark Focus",
+  "description": "Minimal black and white theme, with smart semantic highlighting",
+  "version": "0.0.1",
+  "publisher": "Christian Kämmerer",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-focus-color-theme.json"
+      }
+    ]
+  }
+}
