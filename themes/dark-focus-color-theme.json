@@ -2,6 +2,7 @@
 	"name": "Dark Focus",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.background": "#202020",
 		"activityBar.foreground": "#d6d6d6",
@@ -736,6 +737,17 @@
 		//"widget.border": null,
 		//"window.activeBorder": null,
 		//"window.inactiveBorder": null
+	},
+	"semanticTokenColors": {
+		"magicFunction": { "fontStyle": "italic" },
+		"namespace": { "foreground": "#4ec9b09d" },
+		"variable": { "foreground": "#C9C9C9" },
+		"enumMember": { "foreground": "#c78df3d8" },
+		"function": { "foreground": "#d8d894" },
+		"method": { "foreground": "#d8d894" },
+		"class": { "foreground": "#5bca91" },
+		"enum": { "foreground": "#5bca91" },
+		"type": { "foreground": "#5bca91" }
 	},
 	"tokenColors": [
 		{
